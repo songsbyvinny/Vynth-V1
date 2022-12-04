@@ -30,7 +30,7 @@ void Vynth_V1AudioProcessorEditor::paint (juce::Graphics& g)
 
     g.setColour (juce::Colours::white);
     g.setFont (24.0f);
-    g.drawFittedText ("Let's make some comically random sounds", getLocalBounds(), juce::Justification::centred, 1);
+    g.drawFittedText ("Welcome to Vynth(V1.0) a randomized, alogrith-based wave structure generator plugin", getLocalBounds(), juce::Justification::centredTop, 2, (1.0f));
 }
 
 void Vynth_V1AudioProcessorEditor::resized()

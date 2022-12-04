@@ -15,7 +15,7 @@ Vynth_V1AudioProcessorEditor::Vynth_V1AudioProcessorEditor (Vynth_V1AudioProcess
 {
     // Make sure that before the constructor has finished, you've set the
     // editor's size to whatever you need it to be.
-    setSize (400, 300);
+    setSize (600, 400);
 }
 
 Vynth_V1AudioProcessorEditor::~Vynth_V1AudioProcessorEditor()
@@ -29,8 +29,8 @@ void Vynth_V1AudioProcessorEditor::paint (juce::Graphics& g)
     g.fillAll (getLookAndFeel().findColour (juce::ResizableWindow::backgroundColourId));
 
     g.setColour (juce::Colours::white);
-    g.setFont (15.0f);
-    g.drawFittedText ("Hello World!", getLocalBounds(), juce::Justification::centred, 1);
+    g.setFont (24.0f);
+    g.drawFittedText ("What in the FUCK are we crafting today boyz?", getLocalBounds(), juce::Justification::centred, 1);
 }
 
 void Vynth_V1AudioProcessorEditor::resized()
